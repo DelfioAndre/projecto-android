@@ -1,9 +1,9 @@
 @charset "UTF-8"
 
 @font-face {
-    font-family: 'idroid';
+    família da fonte: 'idroid';
     src: url('../fontes/idroid.otf') format('opentype');
-    font-weight: normal;
+    peso da fonte: normal;
 }
 @font-face {
     font-family: 'idroid';
@@ -28,7 +28,7 @@
 
     --fonte-padrao: arial, verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Abebas' Abebas;
-    --fonte-android: 'idroid', Game;
+    --fonte-android: 'idroid';
 
 }
 
