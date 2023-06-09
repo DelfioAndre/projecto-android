@@ -106,7 +106,7 @@ main h1 {
 main h2 {
     color: #063d1e;
     background-image:linear-gradient(to right, #3ddc84, transparent ) ;
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-android), idroid;
     font-weight: normal;
     font-size: 1.4em;
     text-indent: 8px;
