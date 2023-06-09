@@ -6,6 +6,11 @@
     font-weight: normal;
 }
 @font-face {
+    font-family: 'idroid';
+    src: url('') format('opentype');
+    font-weight: normal;
+}
+@font-face {
     font-family: 'Abebas';
     src: url(../fontes/BebasNeue-Regular.ttf) format(opentype);
 }
