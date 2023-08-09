@@ -1,13 +1,8 @@
 @charset "UTF-8"
 
 @font-face {
-    família da fonte: 'idroid';
-    src: url('../fontes/idroid.otf') format('opentype');
-    peso da fonte: normal;
-}
-@font-face {
     font-family: 'idroid';
-    src: url('') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 @font-face {
@@ -28,7 +23,7 @@
 
     --fonte-padrao: arial, verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Abebas' Abebas;
-    --fonte-android: 'idroid';
+    --fonte-android: 'idroid', Game;
 
 }
 
@@ -111,7 +106,7 @@ main h1 {
 main h2 {
     color: #063d1e;
     background-image:linear-gradient(to right, #3ddc84, transparent ) ;
-    font-family: var(--fonte-android), idroid;
+    font-family: var(--fonte-android), game;
     font-weight: normal;
     font-size: 1.4em;
     text-indent: 8px;
